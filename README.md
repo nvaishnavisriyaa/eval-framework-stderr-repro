@@ -7,6 +7,9 @@ all in `src/eval_framework/evaluation_generator.py`, method
 
 Checked against **v0.15.2**, commit `8c570ad`.
 
+Reported upstream as
+[eval-framework#1037](https://github.com/Aleph-Alpha-Research/eval-framework/issues/1037).
+
 The headline: **on every multi-subject benchmark, the reported standard error is
 too large by a factor of `sqrt(number of subjects)`.** For MMLU that is 7.55x. The
 error bars are wide enough to hide any model difference a team would plausibly be
